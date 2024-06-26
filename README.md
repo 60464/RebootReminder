@@ -11,4 +11,14 @@
 5	记录每次检测的工控机运行时间及联锁机运行时间  
 6 软件关闭按钮点击后直接进入后台，而不是关闭，只能通过杀死进程的方式关闭程序  
 
+# 函数介绍  
+RebootReminder.py GUI界面的主函数  
+IPCRunningTime.py 工控机读取运行时间函数  
+IPSRunningTime.py 联锁机读取运行时间函数  
+ReadHostcfg.py 读取工控机中hostcfg.ini文件函数，用于确定工控机IP  
+ReadPassword.py 读取config.ini文件函数，主要用于读取工控机的密码，测试时可用于相关配置读取  
+KeyVariableDefinition.py 定义一些全局变量  
+SysteminfoRuningTime.py 采用systeminfo命令获取工控机运行时间函数  
+Logging.py 日志记录函数  
+Threading.py 创建多线程函数  
 
